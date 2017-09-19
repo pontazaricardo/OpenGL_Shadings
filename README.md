@@ -29,3 +29,5 @@ You need to include the OpenGL libraries in the following locations:
 3. C:\Windows\System32
 	1. glu32.dll
 	2. glut32.dll
+
+The list above shows how to create a local installation of OpenGl.
