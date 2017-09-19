@@ -25,3 +25,4 @@ You need to include the OpenGL libraries in the following locations:
 	5. glui.h
 	6. glut.
 	7. glxew.h
+	8. wglew.h
