@@ -31,3 +31,7 @@ You need to include the OpenGL libraries in the following locations:
 	2. glut32.dll
 
 The list above shows how to create a local installation of OpenGl. If you want to use OpenGL just for this project, include the **glu32.dll** and **glut32.dll** in the folder of the generated executable.
+
+## Code
+
+
