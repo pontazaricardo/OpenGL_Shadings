@@ -17,7 +17,7 @@ You need to include the OpenGL libraries in the following locations:
 	1. glu32.dll
 	2. glut32.dll
 	3. opengl32.dll
-2. C:\Program Files\Microsoft Visual Studio 10.0\VC\include\GL
+2. C:\Program Files\Microsoft Visual Studio 10.0\VC\include\GL:
 	1. GL.H
 	2. GLAux.h
 	3. glew.h
@@ -26,7 +26,8 @@ You need to include the OpenGL libraries in the following locations:
 	6. glut.
 	7. glxew.h
 	8. wglew.h
-3. C:\Windows\System32
+3. C:\Program Files\Microsoft Visual Studio 10.0\VC\lib:
+4. C:\Windows\System32:
 	1. glu32.dll
 	2. glut32.dll
 
