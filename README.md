@@ -27,3 +27,4 @@ You need to include the OpenGL libraries in the following locations:
 	7. glxew.h
 	8. wglew.h
 3. C:\Windows\System32
+	1. glu32.dll
