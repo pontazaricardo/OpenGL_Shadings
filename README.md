@@ -47,7 +47,7 @@ When running the actual control, a set of keyboard controls can be used:
 	1. 'm': Change model from the list of models loaded by default.
 	2. 's': Change the shading model applied in the selected 3D model.
 	3. 'a': Activates the rotation movement of the model.
-	4. '0': Makes a zoom in movement for the camera.
+	4. '0': Camera zoom in.
 	5. '9': Makes a zoom out movement for the camera.
 
 ## Code
