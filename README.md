@@ -60,3 +60,4 @@ The function
 ```c++
 void keyboard(unsigned char key,int x,int y)
 ```
+includes all the controls that are available from the keyboard.
