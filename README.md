@@ -43,6 +43,8 @@ The list above shows how to create a local installation of OpenGl. If you want t
 
 ## Keyboard controls
 
+When running the actual control, a set of keyboard controls can be used:
+
 ## Code
 
 
