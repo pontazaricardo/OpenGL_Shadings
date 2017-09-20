@@ -63,3 +63,28 @@ void keyboard(unsigned char key,int x,int y)
 includes all the controls that are available from the keyboard.
 
 ### Main
+
+The Main code is composed as
+```c++
+int main(int argc,char *argv[])
+{
+    glutInit(&argc,argv);
+    glutInitDisplayMode(GLUT_DEPTH|GLUT_DOUBLE|GLUT_RGBA);
+    glutInitWindowPosition(60,50);
+    glutInitWindowSize(900,700);
+    glutCreateWindow("Shading examples");
+
+    glutDisplayFunc(display);
+    glutIdleFunc(idle);
+    glutReshapeFunc(reshape);
+    glutKeyboardFunc(keyboard);
+    glutMotionFunc(motion);
+    glutMouseFunc(mouse);
+    
+    myInit();
+    glutMainLoop();
+        
+    return 0;
+}
+```
+
