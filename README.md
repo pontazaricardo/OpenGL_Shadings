@@ -52,5 +52,7 @@ When running the actual control, a set of keyboard controls can be used:
 
 ## Code
 
+There are different parts of the code that are worth to mention.
 
+### Keyboard options
 
