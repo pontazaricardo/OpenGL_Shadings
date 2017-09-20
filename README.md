@@ -44,6 +44,7 @@ The list above shows how to create a local installation of OpenGl. If you want t
 ## Keyboard controls
 
 When running the actual control, a set of keyboard controls can be used:
+	1. 'm': Change model from the list of models loaded by default.
 
 ## Code
 
