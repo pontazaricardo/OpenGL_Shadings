@@ -41,7 +41,9 @@ You need to include the OpenGL libraries in the following locations:
 
 The list above shows how to create a local installation of OpenGl. If you want to use OpenGL just for this project, include the **glu32.dll** and **glut32.dll** in the folder of the generated executable.
 
-![demo2](/images/lib/opengl_lib01.png?raw=true)
+![lib01](/images/lib/opengl_lib01.png?raw=true)
+
+![lib02](/images/lib/opengl_lib02.png?raw=true)
 
 ## Keyboard controls
 
