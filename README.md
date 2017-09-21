@@ -95,7 +95,7 @@ int main(int argc,char *argv[])
     return 0;
 }
 ```
-where the default OpenGL functions are included prior to the *myInit()* function. If you want to add custom code, please do so in the *myInit()* or after it.
+where the default OpenGL functions are included prior to the *myInit()* function. If you want to add custom code, please do so in the *myInit()* or after it. The glut functions are standard implementations of OpenGl.
 
 ### Visualization
 
