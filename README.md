@@ -91,4 +91,5 @@ where the default OpenGL functions are included prior to the *myInit()* function
 
 ### Visualization
 
-When running the program, the defaul 3D models are loaded.
+When running the program, the defaul 3D models are loaded:
+1. To change the displayed model, press 'm'.
