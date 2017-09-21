@@ -1,6 +1,6 @@
 # OpenGL_Shadings
 
-This project shows how to perform the Polygon shading, Gouraud shading and Phong shading of some 3D models using OpenGL.
+This project shows how to perform some classical shadings (Polygon shading, Gouraud shading and Phong shading) with 3D models using OpenGL.
 
 ![demo](/images/demo01.gif?raw=true)
 
@@ -41,6 +41,51 @@ You need to include the OpenGL libraries in the following locations:
 
 The list above shows how to create a local installation of OpenGl. If you want to use OpenGL just for this project, include the **glu32.dll** and **glut32.dll** in the folder of the generated executable.
 
+## Keyboard controls
+
+When running the actual control, a set of keyboard controls can be used:
+	1. 'm': Change model from the list of models loaded by default.
+	2. 's': Change the shading model applied in the selected 3D model.
+	3. 'a': Activates the rotation movement of the model.
+	4. '0': Camera zoom in.
+	5. '9': Camera zoom out.
+
 ## Code
 
+There are different parts of the code that are worth to mention.
+
+### Keyboard options
+
+The function
+```c++
+void keyboard(unsigned char key,int x,int y)
+```
+includes all the controls that are available from the keyboard.
+
+### Main
+
+The Main code is composed as
+```c++
+int main(int argc,char *argv[])
+{
+    glutInit(&argc,argv);
+    glutInitDisplayMode(GLUT_DEPTH|GLUT_DOUBLE|GLUT_RGBA);
+    glutInitWindowPosition(60,50);
+    glutInitWindowSize(900,700);
+    glutCreateWindow("Shading examples");
+
+    glutDisplayFunc(display);
+    glutIdleFunc(idle);
+    glutReshapeFunc(reshape);
+    glutKeyboardFunc(keyboard);
+    glutMotionFunc(motion);
+    glutMouseFunc(mouse);
+    
+    myInit();
+    glutMainLoop();
+        
+    return 0;
+}
+```
+where the default OpenGL functions are included prior to the *myInit()* function. If you want to add custom code, please do so in the *myInit()* or after it.
 
