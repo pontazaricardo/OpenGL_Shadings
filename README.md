@@ -94,3 +94,5 @@ where the default OpenGL functions are included prior to the *myInit()* function
 When running the program, the defaul 3D models are loaded:
 1. To change the displayed model, press 'm'.
 2. To start and stop the rotation movement, press 'a'.
+
+![demo2](/images/demo02.gif?raw=true)
