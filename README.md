@@ -64,7 +64,7 @@ There are different parts of the code that are worth to mention.
 
 ### Keyboard options
 
-The function
+The function below
 ```c++
 void keyboard(unsigned char key,int x,int y)
 ```
