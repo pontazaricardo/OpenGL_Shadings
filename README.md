@@ -90,3 +90,5 @@ int main(int argc,char *argv[])
 where the default OpenGL functions are included prior to the *myInit()* function. If you want to add custom code, please do so in the *myInit()* or after it.
 
 ### Visualization
+
+When running the program, the defaul 3D models are loaded.
