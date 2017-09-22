@@ -121,3 +121,24 @@ void myInit()
 
 }
 ```
+and finally add them in the switch function 
+```c++
+void changeModel(int m)
+{
+	switch(m)
+	{
+		case 2:
+			TRIobj=&csieModel;
+			break;
+		case 1:
+			TRIobj=&ballModel;
+			break;
+		case 3:
+			TRIobj=&f18Model;
+			break;    
+		case 4:
+			TRIobj=&csieB1;
+		}    
+	currentModel=m;
+}
+```
