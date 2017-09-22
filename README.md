@@ -101,7 +101,7 @@ When running the program, the defaul 3D models are loaded. About the visualizati
 
 ## 3D models
 
-In the */main/MultiShader/models* folder, there are 15 **tri** models, but by default only 4 are loaded in the code. If you want to add extra ones, you need to first add extra variables
+In the */main/MultiShader/models* folder, there are 15 **tri** models, but by default only 4 are loaded in the code. If you want to add extra ones, you need to first (in the **main.cpp** file) add extra variables
 
 ```c++
 TRIModel csieModel,ballModel,f18Model,csieB1;
