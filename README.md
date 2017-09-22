@@ -98,3 +98,7 @@ When running the program, the defaul 3D models are loaded. About the visualizati
 2. To start and stop the rotation movement, press 'a'.
 
 ![demo2](/images/demo02.gif?raw=true)
+
+## 3D models
+
+In the */main/MultiShader/models* folder, there are 15 **tri** models.
