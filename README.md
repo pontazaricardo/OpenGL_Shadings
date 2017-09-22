@@ -106,7 +106,7 @@ In the */main/MultiShader/models* folder, there are 15 **tri** models, but by de
 ```c++
 TRIModel csieModel,ballModel,f18Model,csieB1;
 ```
-then load the models
+then load the models from the files
 ```c++
 void myInit()
 {
