@@ -1,6 +1,6 @@
 # OpenGL_Shadings
 
-This project shows how to perform some shadings (Polygon shading, Gouraud shading and Phong shading) with 3D models using OpenGL.
+This project shows how to perform the classical Polygon shading, Gouraud shading and Phong shading over 3D models using OpenGL.
 
 ![demo](/images/demo01.gif?raw=true)
 
