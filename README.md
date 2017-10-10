@@ -146,4 +146,6 @@ void changeModel(int m)
 
 A demo of the project can be seen below.
 
-![demo](/images/demo03.gif?raw=true)
+![demo02](/images/demo03.gif?raw=true)
+
+![demo03](/images/demo01.gif?raw=true)
