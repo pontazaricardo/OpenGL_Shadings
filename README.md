@@ -145,3 +145,5 @@ void changeModel(int m)
 ## Demo
 
 A demo of the project can be seen below.
+
+![demo](/images/demo03.gif?raw=true)
